@@ -7,6 +7,7 @@ export const formatCurrency = (amount: number) => {
   });
 };
 
+export const amountToCents = (amount: number) => amount * 100;
 export const formatDateToLocal = (
   dateStr: string,
   locale: string = 'en-US',
